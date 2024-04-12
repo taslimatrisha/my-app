@@ -1,0 +1,177 @@
+h2{
+    font-size: 30px;
+    line-height: 38px;
+}
+
+
+/* Explore Now Green Button */
+#explore{ 
+    color: #ffffff;
+    background-color: #95fa76;
+    padding: 10px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(45deg, rgba(102, 204, 153, 1) 0%, rgba(108, 205, 148, 1) 19%, rgba(136, 209, 125, 1) 72%, rgba(146, 211, 117, 1) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(102, 204, 150, 0.3);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.explore-now-btn{
+    width: 81.5%;
+    display: flex;
+    justify-content: left;
+}
+#explore:hover{
+    color: #b050ff;
+    background: #fff;
+    border: 1px solid #b050ff;
+    background: transparent;
+}
+
+
+/* Plan section */
+.centered-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-item {
+    margin-top: 30px;
+    padding: 60px 30px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    box-shadow: 0px 20px 50px 0px rgba(153, 153, 153, 0.1);
+}
+.price-item ul {
+    margin-left: 0;
+    list-style: none;
+    padding-left: 0px;
+}
+.price-item h3 {
+    margin-top: 0px;
+}
+.price span {
+    font-size: 15px;
+    color: #b9afaf;
+}
+.price-item p.price {
+    margin-top: 35px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 42px;
+    color: rgb(102,204,153);
+    text-shadow: 0px 5px 20px rgba(102, 204, 153, 0.3);
+}
+.price-item.featured .price {
+    color: rgb(255,101,165);
+    text-shadow: 0px 5px 20px rgba(255, 101, 165, 0.3);
+}
+.price-item .features {
+    margin: 30px 0;
+}
+.price-item .features li {
+    padding: 5px 0;
+}
+
+/* Green and Pink button in Plan section */
+/* Start Trial pink button */
+#trial-pink{ 
+    color: #fff;
+    background-color: #f85f80;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(45deg, rgba(255, 101, 165, 1) 0%, rgba(255, 101, 165, 1) 13%, rgba(255, 107, 154, 1) 35%, rgba(255, 134, 106, 1) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(255, 101, 165, 0.3);
+    border: 1px dotted transparent;
+    border-radius: 5px;
+}
+
+#trial-pink:hover{
+    color: #b050ff;
+    background: #fff;
+    border: 1px solid #b050ff;
+    background: transparent;
+}
+/* Start Trial green button */
+#trial-green{ 
+    color: #fff;
+    background-color: #95fa76;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(45deg, rgba(102, 204, 153, 1) 0%, rgba(108, 205, 148, 1) 19%, rgba(136, 209, 125, 1) 72%, rgba(146, 211, 117, 1) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(102, 204, 150, 0.3);
+    border: 1px dotted transparent;
+    border-radius: 5px;
+}
+
+#trial-green:hover{
+    color: #b050ff;
+    background: #fff;
+    border: 1px solid #b050ff;
+    background: transparent;
+}
+
+/* Add this CSS for mobile responsiveness */
+@media only screen and (max-width: 767px) {
+    .price-item {
+      padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+    .trial-pink-btn, .trial-green-btn {
+      display: flex;
+      justify-content: center; /* Center the button horizontally */
+    }
+  }
+  
+
+/* Green and Pink buttons in Get app section */
+/* Android green button */
+/* General styles */
+.android-btn, .ios-btn {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+/* Button styles */
+#android-green, #ios-pink {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+#android-green {
+    background: linear-gradient(45deg, rgba(102, 204, 153, 1) 0%, rgba(108, 205, 148, 1) 19%, rgba(136, 209, 125, 1) 72%, rgba(146, 211, 117, 1) 100%);
+}
+
+#ios-pink {
+    background: linear-gradient(45deg, rgba(255, 101, 165, 1) 0%, rgba(255, 101, 165, 1) 13%, rgba(255, 107, 154, 1) 35%, rgba(255, 134, 106, 1) 100%);
+}
+
+/* Hover styles */
+#android-green:hover, #ios-pink:hover {
+    color: #b050ff;
+    background: #fff;
+    border: 1px solid #b050ff;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .col-lg-7, .col-lg-5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .computer-img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+

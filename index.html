@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+   <div id="hero"></div>
+   <div id="feature"></div>
+   <div id="video"></div>
+   <div id="plan"></div>
+   <div id="screenshot"></div>
+   <div id="brand"></div>
+   <div id="app"></div>
+   <div id="footer"></div>
+   
+    
+    <script src="jq/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function(){
+            $("#hero").load("hero-part.html");
+            $("#feature").load("feature.html");
+            $("#video").load("video.html");
+            $("#plan").load("plan.html");
+            $("#screenshot").load("screenshot-slider.html");
+            $("#brand").load("brand-slider.html");
+            $("#app").load("app.html");
+
+            $("#footer").load("footer.html");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+
+/*================ common code start =======================*/
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}     
+
+/*================== common code end =====================*/
+
+
+
+/*  FEATURES THAT REPRESENT US*/
+.represent_us{
+    margin: 60px 0px;
+}
+.section-title p{
+    color: #777;
+
+}
+/*  FEATURES THAT REPRESENT US*/
+
+
+/* hero box start*/
+.card-body{
+    padding: 12px 35px 46px !important;
+}
+.card-title{
+    font-size: 19px;
+}
+.card-text{
+    padding: 10px 0px;
+    color: #777;
+}
+.card-body i{
+    margin-right: 10px;
+}
+.hero_h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+/* item */
+.hero-box-area{
+    padding-bottom:120px ;
+
+}
+
+.fa-arrow-pointer{
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(45deg, rgba(102, 204, 153, 1) 0%, rgba(108, 205, 148, 1) 19%, rgba(136, 209, 125, 1) 72%, rgba(146, 211, 117, 1) 100%);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+
+.fa-rocket{
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(45deg,  rgba(255,101,165,1) 0%,rgba(255,101,165,1) 13%,rgba(255,107,154,1) 35%,rgba(255,134,106,1) 100%);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.fa-tty{
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px ;
+    border-radius:10px ;
+    background-image: linear-gradient(45deg,  rgba(129,138,255,1) 0%,rgba(129,138,255,1) 7%,rgba(139,132,255,1) 17%,rgba(180,107,255,1) 42%,rgba(201,99,249,1) 56%,rgba(217,99,236,1) 68%,rgba(241,105,208,1) 83%,rgba(254,113,188,1) 95%,rgba(255,116,182,1) 100%);
+}
+
+/* hero box start */
+
+
+
+
+/* Feature area starts */
+
+/* CORE APP FEATURES */
+.core-app-feature{
+    padding: 100px 0px;
+}
+
+/* feature item  right */
+
+.feature-box {
+    margin-top: 20px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 20px 50px 0px rgba(153, 153, 153, 0.1);
+}
+.feature-icon{
+    padding-right:15px;
+}
+.feature-content h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.feature-content p{
+line-height:20px;
+color: #777;
+}
+.mobile{
+    align-content: center;
+}
+
+  .fa_r{
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px ;
+    border-radius:8px ;
+    background-image: linear-gradient(45deg, rgba(129, 138, 255, 1) 0%, rgba(129, 138, 255, 1) 7%, rgba(139, 132, 255, 1) 17%, rgba(180, 107, 255, 1) 42%, rgba(201, 99, 249, 1) 56%, rgba(217, 99, 236, 1) 68%, rgba(241, 105, 208, 1) 83%, rgba(254, 113, 188, 1) 95%, rgba(255, 116, 182, 1) 100%);  
+  }
+
+.fa-address-book{
+    
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px ;
+    border-radius:8px ; 
+    background-image: linear-gradient(45deg,  rgba(255,101,165,1) 0%,rgba(255,101,165,1) 13%,rgba(255,107,154,1) 35%,rgba(255,134,106,1) 100%)
+    ;
+
+}
+
+.fa-filter{
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px ;
+    border-radius:8px ; 
+    background-image: linear-gradient(45deg,  rgba(102,204,153,1) 0%,rgba(108,205,148,1) 19%,rgba(136,209,125,1) 72%,rgba(146,211,117,1) 100%)
+    ;
+}
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body{
+    color: #777;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.section-title {
+    margin: auto;
+    max-width: 600px;
+}
+.text-center {
+    text-align: center;
+
+}
+p {
+    letter-spacing: 0px;
+}
+p {
+    margin: 0 0 10px;
+
+
+}
+row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.hero-box {
+    margin-top: 30px;
+    text-align: justify;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../img/hero-box-bg.png);
+    box-shadow: 0px 20px 50px 0px rgba(153, 153, 153, 0.1);
+} 
+.feature-area {
+    background-color: #f9f9ff;
+    background-image: url("../img/feature-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 89px;
+}
+
+
+
+
+.feture-img {
+    margin-top: 60px;
+}
+
+
+/* @media (min-width: 768px)
+.col-sm-6 {
+    width: 50%
+} */
+
+
+/* .feature-content {
+    overflow: hidden;
+} */
+

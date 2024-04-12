@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container mt-5 mb-5 pb-5">
+        
+        <section class="customer-logos slider mt-5 mb-5">
+          <div class="slide"><img src="img/brand-img-1.png"></div>
+          <div class="slide"><img src="img/brand-img-2.png"></div>
+          <div class="slide"><img src="img/brand-img-3.png"></div>
+          <div class="slide"><img src="img/brand-img-4.png"></div>
+          <div class="slide"><img src="img/brand-img-5.png"></div>
+          <div class="slide"><img src="img/brand-img-6.png"></div>
+          <div class="slide"><img src="img/brand-img-7.png"></div>
+          <div class="slide"><img src="img/brand-img-3.png"></div>
+          <div class="slide"><img src="img/brand-img-6.png"></div>
+          <div class="slide"><img src="img/brand-img-7.png"></div>
+          <div class="slide"><img src="img/brand-img-3.png"></div>
+          
+          
+        </section>
+      </div>
+       
+      <script src="jq/jquery-3.7.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="https://kit.fontawesome.com/a00570de47.js" crossorigin="anonymous"></script>
+
+       <!-- company_slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+</body>
+</html>
